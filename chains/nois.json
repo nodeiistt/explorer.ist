@@ -1,0 +1,30 @@
+{
+    "chain_name": "nois",
+    "chain_id": "nois-1",
+    "validator_address": "",
+    "registry_name": "nois",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "nois-network"
+    },
+    "api": [
+        "https://nois-api.polkachu.com",
+        "https://api.nois.nodestake.top"
+    ],
+    "rpc": [
+        "https://nois-rpc.polkachu.com",
+        "https://rpc.nois.nodestake.top"
+    ],
+    "sdk_version": "0.45.14",
+    "addr_prefix": "nois",
+    "min_tx_fee": "5000",
+    "logo": "/logos/nois.png",
+    "assets": [
+        {
+            "symbol": "NOIS",
+            "base": "unois",
+            "exponent": 6,
+            "logo": "/logos/nois.png"
+        }
+    ]
+}

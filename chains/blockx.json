@@ -1,0 +1,33 @@
+{
+    "chain_name": "BlockX",
+    "chain_id": "blockx-1",
+    "validator_address": "",
+    "registry_name": "blockx",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "blockxnet"
+    },
+    "api": [
+        {"provider": "BlockX", "address": "https://api.blockxnet.com"},
+        {"provider": "Nodeist", "address": "https://api-blockx.nodeist.net"},
+        {"provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥", "address": "https://blockx_mainnet_api.chain.whenmoonwhenlambo.money"}
+    ],
+    "rpc": [
+        {"provider": "BlockX", "address": "https://rpc.blockxnet.com"},
+        {"provider": "Nodeist", "address": "https://rpc-blockx.nodeist.net"},
+        {"provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥", "address": "https://blockx_mainnet_rpc.chain.whenmoonwhenlambo.money"}
+    ],
+    "sdk_version": "0.45.1",
+    "coin_type": "60",
+    "min_tx_fee": "25000000000",
+    "addr_prefix": "blockx",
+    "logo": "/logos/blockx.png",
+    "theme_color": "#0d5ad6",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "assets": [{
+        "base": "abcx",
+        "symbol": "BCX",
+        "exponent": "18",
+        "logo": "/logos/blockx.png"
+    }]
+}

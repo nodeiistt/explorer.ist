@@ -1,0 +1,41 @@
+﻿{
+    "chain_name":  "chihuahua-testnet",
+    "coingecko":  "",
+    "api":  [
+                {
+                    "address":  "https://chihuahua-testnet-api.polkachu.com",
+                    "provider":  "Polkachu"
+                }
+            ],
+    "rpc":  [
+                {
+                    "address":  "https://chihuahua-testnet-rpc.polkachu.com",
+                    "provider":  "Polkachu"
+                }
+            ],
+    "sdk_version":  "0.44.3",
+    "coin_type":  "118",
+    "min_tx_fee":  "8000",
+    "addr_prefix":  "chihuahua",
+    "logo":  "/logos/chihuahua.png",
+    "assets":  [
+                   {
+                       "base":  "uhuahua",
+                       "symbol":  "HUAHUA",
+                       "exponent":  "6",
+                       "coingecko_id":  "",
+                       "logo":  "/logos/chihuahua.png"
+                   }
+               ],
+    "faucet":  {
+                   "amount":  "5000000uhuahua",
+                   "ip_limit":  "1",
+                   "address_limit":  "1",
+                   "fees":  "8000uhuahua"
+               },
+    "codebase":  {
+                     "github_org":  ""
+                 },
+    "network_type":  "testnet",
+    "registry_name":  ""
+}

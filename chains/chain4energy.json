@@ -1,0 +1,45 @@
+{
+    "chain_name": "chain4energy",
+    "chain_id": "chain4energy-1",
+    "validator_address": "",
+    "registry_name": "chain4energy",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "chain4energy"
+    },
+    "api": [
+        {"provider": "C4E", "address": "https://lcd.c4e.io/"},
+        {"provider": "DTEAM", "address": "https://api.c4e.mainnet.dteam.tech:443"},
+        {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://chain4energy-mainnet-lcd.autostake.com:443"},
+        {"provider": "🔥STAVR🔥", "address": "https://c4e.api.m.stavr.tech"},
+        {"provider": "MZONDER", "address": "https://api-c4e.mzonder.com"},
+        {"provider": "StakeTown", "address": "https://c4e-api.stake-town.com"},
+        {"provider": "silent", "address": "https://api.c4e.silentvalidator.com"},
+        {"provider": "AM Solutions", "address": "https://api-c4e.theamsolutions.info"},
+        {"provider": "Validatus", "address": "https://api.c4e.validatus.com:443"},
+        {"provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥", "address": "https://chain4energy_mainnet_api.chain.whenmoonwhenlambo.money"}
+    ],
+    "rpc": [
+        {"provider": "C4E", "address": "https://rpc.c4e.io/"},
+        {"provider": "DTEAM", "address": "https://rpc.c4e.mainnet.dteam.tech:443"},
+        {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://chain4energy-mainnet-rpc.autostake.com:443"},
+        {"provider": "🔥STAVR🔥", "address": "https://c4e.rpc.m.stavr.tech:443"},
+        {"provider": "MZONDER", "address": "https://rpc-c4e.mzonder.com"},
+        {"provider": "StakeTown", "address": "https://c4e-rpc.stake-town.com"},
+        {"provider": "silent", "address": "https://rpc.c4e.silentvalidator.com"},
+        {"provider": "AM Solutions", "address": "https://rpc-c4e.theamsolutions.info"},
+        {"provider": "Validatus", "address": "https://rpc.c4e.validatus.com:443"},
+        {"provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥", "address": "https://chain4energy_mainnet_rpc.chain.whenmoonwhenlambo.money"}
+    ],
+    "sdk_version": "0.45.5",
+    "coin_type": "4444",
+    "min_tx_fee": "3000",
+    "addr_prefix": "c4e",
+    "logo": "/logos/c4e.png",
+    "assets": [{
+        "base": "uc4e",
+        "symbol": "C4E",
+        "exponent": "6",
+        "logo": "/logos/c4e.png"
+    }]
+}

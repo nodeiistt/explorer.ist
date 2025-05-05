@@ -1,0 +1,83 @@
+{
+    "chain_name": "osmosis",
+    "favorite": "true",
+        "chain_id": "osmosis-1",
+    "validator_address": "",
+    "registry_name": "osmosis",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "osmosis-labs"
+    },
+    "api": [
+        {
+            "provider": "Polkachu",
+            "address": "https://osmosis-api.polkachu.com"
+        },
+        {
+            "provider": "Allnodes",
+            "address": "https://osmosis-rest.publicnode.com"
+        },
+        {
+            "provider": "Notional",
+            "address": "https://osmosis-api.w3coins.io"
+        }
+    ],
+    "rpc": [
+        {
+            "provider": "Polkachu",
+            "address": "https://osmosis-rpc.polkachu.com"
+        },
+        {
+            "provider": "Allnodes",
+            "address": "https://osmosis-rpc.publicnode.com"
+        },
+        {
+            "provider": "Notional",
+            "address": "https://osmosis-rpc.w3coins.io"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.4",
+    "coin_type": "118",
+    "min_tx_fee": "8000",
+    "theme_color": "#7E1EF4",
+    "assets": [
+        {
+            "base": "uosmo",
+            "symbol": "OSMO",
+            "exponent": "6",
+            "coingecko_id": "osmosis",
+            "logo": "/logos/osmosis.png"
+        },
+        {
+            "base": "uion",
+            "symbol": "ION",
+            "exponent": "6",
+            "coingecko_id": "ion",
+            "logo": "/logos/osmosis.jpg"
+        },
+        {
+            "base": "usomm",
+            "symbol": "SOMM",
+            "exponent": "6",
+            "coingecko_id": "somm",
+            "logo": ""
+        },
+        {
+            "base": "factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos",
+            "symbol": "YMOS",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "/logos/osmosis.png"
+        },
+        {
+            "base": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+            "symbol": "CULT",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "/logos/osmosis.png"
+        }
+    ],
+    "addr_prefix": "osmo",
+    "logo": "/logos/osmosis.png"
+}

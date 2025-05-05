@@ -1,0 +1,67 @@
+{
+    "chain_name": "carbon",
+    "chain_id": "carbon-1",
+    "validator_address": "",
+    "registry_name": "carbon",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "carbon-network"
+    },
+    "coingecko": "switcheo",
+    "api": [
+        {
+            "provider": "switcheo-labs",
+            "address": "https://api.carbon.network"
+        },
+        {
+            "provider": "Lavender.Five Nodes \ud83d\udc1d",
+            "address": "https://rest.lavenderfive.com:443/carbon"
+        },
+        {
+            "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected",
+            "address": "https://carbon-mainnet-lcd.autostake.com:443"
+        },
+        {
+            "provider": "BlockHunters",
+            "address": "https://rest.carbon.blockhunters.org"
+        }
+    ],
+    "rpc": [
+        {
+            "provider": "switcheo-labs",
+            "address": "https://tm-api.carbon.network"
+        },
+        {
+            "provider": "Lavender.Five Nodes \ud83d\udc1d",
+            "address": "https://rpc.lavenderfive.com:443/carbon"
+        },
+        {
+            "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected",
+            "address": "https://carbon-mainnet-rpc.autostake.com:443"
+        },
+        {
+            "provider": "BlockHunters",
+            "address": "https://rpc.carbon.blockhunters.org"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.2",
+    "coin_type": "118",
+    "min_tx_fee": "100000000",
+    "addr_prefix": "swth",
+    "logo": "/logos/carbon.svg",
+    "sign_opts": {
+        "keplr": {
+            "preferNoSetFee": true
+        }
+    },
+    "assets": [
+        {
+            "base": "swth",
+            "symbol": "SWTH",
+            "exponent": "8",
+            "coingecko_id": "switcheo",
+            "logo": "/logos/carbon.svg"
+        }
+    ]
+}

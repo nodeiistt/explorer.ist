@@ -1,0 +1,29 @@
+{
+    "chain_name": "atomone-testnet",
+   "chain_id": "atomone-testnet-1",
+    "validator_address": "",
+    "registry_name": "atomone",
+    "network_type": "testnet",
+    "codebase": {
+        "github_org": "atomone-network"
+    },    
+    "api": [
+        {"address": "https://atomone-testnet-api.itrocket.net", "provider": "itrocket"},
+        {"address": "https://api-test.atomone.vinjan.xyz", "provider": "vinjan"}
+    ],
+    "rpc": [
+        {"address": "https://atomone-testnet-rpc.itrocket.net", "provider": "itrocket"},
+        {"address": "https://rpc-test.atomone.vinjan.xyz", "provider": "vinjan"}
+    ],
+    "addr_prefix": "atone",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "logo": "/logos/atomone.png",
+    "assets": [{
+        "base": "uatone",
+        "symbol": "atone",
+        "exponent": "6",
+        "coingecko_id": "atomone", 
+        "logo": "/logos/atomone.png"
+    }]
+}

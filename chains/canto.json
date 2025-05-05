@@ -1,0 +1,36 @@
+{
+  "chain_name": "canto",
+  "chain_id": "canto-1",
+  "validator_address": "",
+  "registry_name": "canto",
+  "network_type": "mainnet",
+  "codebase": {
+      "github_org": "canto-network"
+  },
+  "api": [
+    {"provider": "Polkachu", "address": "https://canto-api.polkachu.com"},
+    {"provider": "silent", "address": "https://api.canto.silentvalidator.com/"},
+    {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://canto-mainnet-lcd.autostake.com:443"},
+    {"provider": "Kewr Node", "address": "https://rest-canto.kewrnode.com"}
+  ],
+  "rpc": [
+    {"provider": "Polkachu", "address": "https://canto-rpc.polkachu.com"},
+    {"provider": "silent", "address": "https://rpc.canto.silentvalidator.com/"},
+    {"provider": "Althea", "address": "https://canto.gravitychain.io:26657"},
+    {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://canto-mainnet-rpc.autostake.com:443"},
+    {"provider": "Kewr Node", "address": "https://rpc-canto.kewrnode.com"}
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.6",
+  "coin_type": "60",
+  "min_tx_fee": "800",
+  "addr_prefix": "canto",
+  "logo": "/logos/canto.png",
+  "assets": [
+    {
+      "base": "acanto",
+      "symbol": "CANTO",
+      "exponent": "18"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    "chain_name":  "cosmos-testnet",
+    "api":  [
+                {
+                    "address":  "https://rest.seed-01.theta-testnet.polypore.xyz",
+                    "provider":  "polypore"
+                },
+                {
+                    "address":  "https://rest.seed-02.theta-testnet.polypore.xyz",
+                    "provider":  "polypore"
+                }
+            ],
+    "rpc":  [
+                {
+                    "address":  "https://rpc.seed-01.theta-testnet.polypore.xyz",
+                    "provider":  "polypore"
+                },
+                {
+                    "address":  "https://rpc.seed-02.theta-testnet.polypore.xyz",
+                    "provider":  "polypore"
+                }
+            ],
+    "sdk_version":  "0.45.1",
+    "coin_type":  "118",
+    "min_tx_fee":  "1500",
+    "addr_prefix":  "cosmos",
+    "logo":  "/logos/cosmos.svg",
+    "assets":  [
+                   {
+                       "base":  "uatom",
+                       "symbol":  "ATOM",
+                       "exponent":  "6",
+                       "coingecko_id":  "cosmos",
+                       "logo":  "/logos/cosmos.svg"
+                   }
+               ],
+    "faucet":  {
+                   "amount":  "5000000uatom",
+                   "ip_limit":  "1",
+                   "address_limit":  "1",
+                   "fees":  "1500uatom"
+               },
+    "codebase":  {
+                     "github_org":  "cosmos"
+                 },
+    "network_type":  "testnet",
+    "registry_name":  ""
+}

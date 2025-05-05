@@ -1,0 +1,74 @@
+{
+    "chain_name": "agoric",
+    "chain_id": "agoric-1",
+    "validator_address": "",
+    "registry_name": "agoric",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "agoric"
+    },
+    "api": [
+        {
+            "address": "https://agoric-api.polkachu.com",
+            "provider": "Polkachu"
+        },
+        {
+            "address": "https://agoric-api.w3coins.io",
+            "provider": "w3coins"
+        },
+        {
+            "address": "https://agoric.api.kjnodes.com",
+            "provider": "kjnodes"
+        },
+        {
+            "address": "https://agoric-api.stakeandrelax.net",
+            "provider": "Stake&Relax \ud83e\udda5"
+        },
+        {
+            "address": "https://main.api.agoric.net"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://agoric-rpc.polkachu.com",
+            "provider": "Polkachu"
+        },
+        {
+            "address": "https://agoric-rpc.w3coins.io",
+            "provider": "w3coins"
+        },
+        {
+            "address": "https://agoric.rpc.kjnodes.com",
+            "provider": "kjnodes"
+        },
+        {
+            "address": "https://agoric-rpc.stakeandrelax.net",
+            "provider": "Stake&Relax \ud83e\udda5"
+        },
+        {
+            "address": "https://main.rpc.agoric.net"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.4",
+    "coin_type": "564",
+    "min_tx_fee": "8000",
+    "assets": [
+        {
+            "base": "ubld",
+            "symbol": "BLD",
+            "exponent": "6",
+            "coingecko_id": "agoric",
+            "logo": "/logos/agoric.png"
+        },
+        {
+            "base": "uist",
+            "symbol": "IST",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": ""
+        }
+    ],
+    "addr_prefix": "agoric",
+    "logo": "/logos/agoric.png"
+}

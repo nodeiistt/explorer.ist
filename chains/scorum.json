@@ -1,0 +1,31 @@
+{
+    "chain_name": "scorum",
+    "chain_id": "scorum-1",
+    "validator_address": "",
+    "registry_name": "scorum",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "scorum-blockchain"
+    },
+    "api": [
+        "https://scorum-blockchain-mainnet-api.scorum.com"
+    ],
+    "rpc": [
+        "https://scorum-blockchain-mainnet-rpc.scorum.com"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.11",
+    "coin_type": "118",
+    "min_tx_fee": "",
+    "addr_prefix": "scorum",
+    "logo": "/logos/scorum.png",
+    "assets": [
+        {
+            "base": "nscr",
+            "symbol": "SCR",
+            "exponent": "9",
+            "coingecko_id": "scorum",
+            "logo": "/logos/scorum-scr.png"
+        }
+    ]
+}

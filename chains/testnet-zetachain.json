@@ -1,0 +1,43 @@
+﻿{
+    "chain_name":  "zetachain-testnet",
+    "coingecko":  "",
+    "api":  [
+                {
+                    "address":  "https://zetachain-athens.blockpi.network/lcd/v1/public",
+                    "provider":  "blockpi.network"
+                }
+            ],
+    "rpc":  [
+                {
+                    "address":  "https://zetachain-athens.blockpi.network/rpc/v1/public",
+                    "provider":  "blockpi.network"
+                }
+            ],
+    "snapshot_provider":  "",
+    "sdk_version":  "0.46.8",
+    "coin_type":  "60",
+    "min_tx_fee":  "3000000000000000",
+    "addr_prefix":  "zeta",
+    "logo":  "/logos/zetachain.png",
+    "keplr_features":  [
+                           "ibc-transfer",
+                           "ibc-go",
+                           "eth-address-gen",
+                           "eth-key-sign"
+                       ],
+    "assets":  [
+                   {
+                       "base":  "azeta",
+                       "symbol":  "tZETA",
+                       "exponent":  "18",
+                       "coingecko_id":  "",
+                       "logo":  "/logos/zetachain.png"
+                   }
+               ],
+    "theme_color":  "#005741",
+    "codebase":  {
+                     "github_org":  ""
+                 },
+    "network_type":  "testnet",
+    "registry_name":  ""
+}

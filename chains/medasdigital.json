@@ -1,0 +1,49 @@
+{
+    "chain_name": "medasdigital",
+    "chain_id": "medas-1",
+    "validator_address": "",
+    "registry_name": "medasdigital",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "medas-digital"
+    },
+    "api": [
+        {
+            "provider": "Neptun",
+            "address": "https://lcd.medas-digital.io:1317"
+        }
+    ],
+    "rpc": [
+        {
+            "provider": "Neptun",
+            "address": "https://rpc.medas-digital.io:26657"
+        }
+    ],
+    "features": [
+        "dashboard",
+        "governance",
+        "blocks",
+        "ibc",
+        "cosmwasm",
+        "uptime",
+        "parameters",
+        "state-sync",
+        "consensus",
+        "supply",
+        "widget"
+    ],
+    "sdk_version": "0.50.3",
+    "coin_type": "118",
+    "min_tx_fee": "8000",
+    "addr_prefix": "medas",
+    "logo": "/logos/medas.png",
+    "assets": [
+        {
+            "base": "umedas",
+            "symbol": "MEDAS",
+            "exponent": "6",
+            "coingecko_id": "medas",
+            "logo": "/logos/medas.png"
+        }
+    ]
+}

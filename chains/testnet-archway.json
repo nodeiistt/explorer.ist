@@ -1,0 +1,33 @@
+﻿{
+    "chain_name":  "archway-testnet",
+    "api":  [
+                "https://api.constantine.archway.tech"
+            ],
+    "rpc":  [
+                "https://rpc.constantine.archway.tech"
+            ],
+    "snapshot_provider":  "https://snapshots.archway.tech/",
+    "sdk_version":  "v0.45.16",
+    "coin_type":  "118",
+    "min_tx_fee":  "",
+    "addr_prefix":  "archway",
+    "logo":  "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
+    "assets":  [
+        {
+            "base": "aarch",
+            "symbol": "ARCH",
+            "exponent": "18",
+            "logo": "/logos/archway.png"
+        },   {
+                       "base":  "aconst",
+                       "symbol":  "CONST",
+                       "exponent":  "18",
+                       "logo":  "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png"
+                   }
+               ],
+    "codebase":  {
+                     "github_org":  ""
+                 },
+    "network_type":  "testnet",
+    "registry_name":  ""
+}

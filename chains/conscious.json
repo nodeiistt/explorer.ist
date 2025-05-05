@@ -1,0 +1,33 @@
+{
+    "chain_name": "conscious",
+    "chain_id": "conscious-1",
+    "validator_address": "",
+    "registry_name": "conscious",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "conscious-dao"
+    },
+    "api": [
+        {"provider": "cvn.io", "address": "https://api.cvn.io"},
+        {"provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥", "address": "https://conscious_mainnet_api.chain.whenmoonwhenlambo.money/"}
+    ],
+    "rpc": [
+        {"provider": "cvn.io", "address": "https://rpc.cvn.io/"},
+        {"provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥", "address": "https://conscious_mainnet_rpc.chain.whenmoonwhenlambo.money/"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.0",
+    "coin_type": "60",
+    "min_tx_fee": "5000000000000000",
+    "addr_prefix": "cvn",
+    "logo": "/logos/cvn.png",
+    "theme_color": "#006500",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "assets": [{
+        "base": "acvnt",
+        "symbol": "cvn",
+        "exponent": "18",
+        "coingecko_id": "consciousdao",
+        "logo": "/logos/cvn.png"
+    }]
+}

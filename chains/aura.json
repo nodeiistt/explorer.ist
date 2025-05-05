@@ -1,0 +1,59 @@
+{
+    "chain_name": "aura",
+    "chain_id": "aura_6322-2",
+    "validator_address": "",
+    "registry_name": "aura",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "aura-network"
+    },
+    "api": [
+        {"provider": "Aura Network Foundation", "address": "https://lcd.aura.network/"},
+        {"provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀", "address": "https://m-aura.api.utsa.tech"},
+        {"provider": "🔥STAVR🔥", "address": "https://aura.api.m.stavr.tech"},
+        {"provider": "ramuchi.tech", "address": "https://aura-api.ramuchi.tech"},
+        {"provider": "kjnodes", "address": "https://aura.api.kjnodes.com"},
+        {"provider": "KonsorTech", "address": "https://mainnet-aura-api.konsortech.xyz"},
+        {"provider": "Lavender.Five Nodes 🐝", "address": "https://rest.lavenderfive.com:443/aura"},
+        {"provider": "Staketab", "address": "https://aura-rest.staketab.org"},
+        {"provider": "silent", "address": "https://api.aura.silentvalidator.com"},
+        {"provider": "MMS", "address": "https://api-aura.mms.team"},
+        {"provider": "StakeTown", "address": "https://aura-api.stake-town.com"},
+        {"provider": "Palamar", "address": "https://aura-api.palamar.io"},
+        {"provider": "STAKR.space", "address": "https://aura.api.srv.stakr.space"},
+        {"provider": "High Stakes 🇨🇭", "address": "https://aura-api.highstakes.ch"},
+        {"provider": "[NODERS]TEAM", "address": "https://aura-api.noders.services"}
+    ],
+    "rpc": [
+        {"provider": "Aura Network Foundation", "address": "https://rpc.aura.network/"},
+        {"provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀", "address": "https://m-aura.rpc.utsa.tech"},
+        {"provider": "🔥STAVR🔥", "address": "http://aura.rpc.m.stavr.tech:11047"},
+        {"provider": "ramuchi.tech", "address": "https://aura-rpc.ramuchi.tech"},
+        {"provider": "kjnodes", "address": "https://aura.rpc.kjnodes.com"},
+        {"provider": "KonsorTech", "address": "https://mainnet-aura-rpc.konsortech.xyz"},
+        {"provider": "Lavender.Five Nodes 🐝", "address": "https://rpc.lavenderfive.com:443/aura"},
+        {"provider": "Staketab", "address": "https://aura-rpc.staketab.org:443"},
+        {"provider": "silent", "address": "https://rpc.aura.silentvalidator.com"},
+        {"provider": "MMS", "address": "https://rpc-aura.mms.team"},
+        {"provider": "StakeTown", "address": "https://aura-rpc.stake-town.com"},
+        {"provider": "Palamar", "address": "https://aura-rpc.palamar.io"},
+        {"provider": "STAKR.space", "address": "https://aura.rpc.srv.stakr.space"},
+        {"provider": "High Stakes 🇨🇭", "address": "https://aura-rpc.highstakes.ch"},
+        {"provider": "[NODERS]TEAM", "address": "https://aura-rpc.noders.services"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.11",
+    "coin_type": "118",
+    "min_tx_fee": "8000",
+    "addr_prefix": "aura",
+    "logo": "/logos/aura.png",
+    "assets": [
+        {
+            "base": "uaura",
+            "symbol": "AURA",
+            "exponent": "6",
+            "coingecko_id": "aura-network",
+            "logo": "/logos/aura.png"
+        }
+    ]
+}

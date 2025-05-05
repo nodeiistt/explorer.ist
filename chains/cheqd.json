@@ -1,0 +1,49 @@
+{
+    "chain_name": "cheqd",
+    "chain_id": "cheqd-1",
+    "validator_address": "",
+    "registry_name": "cheqd",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "cheqd"
+    },
+    "api": [
+        {"provider": "cheqd", "address": "https://api.cheqd.net"},
+        {"provider": "Lavender.Five Nodes", "address": "https://rest.lavenderfive.com:443/cheqd"},
+        {"provider": "🔥STAVR🔥", "address": "https://cheqd.api.m.stavr.tech"},
+        {"provider": "Notional", "address": "https://api-cheqd-ia.cosmosia.notional.ventures/"},
+        {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://cheqd-mainnet-lcd.autostake.com:443"},
+        {"provider": "NodeStake", "address": "https://api.cheqd.nodestake.org"},
+        {"provider": "WhisperNode 🤐", "address": "https://lcd-cheqd.whispernode.com:443"},
+        {"provider": "Blockval", "address": "https://api-cheqd.blockval.io"},
+        {"provider": "Stakewolle", "address": "https://public.stakewolle.com/cosmos/cheqd/rest"},
+        {"provider": "Kleomedes", "address": "https://cheq-api.kleomedes.network"},
+        {"provider": "Allnodes ⚡️ Nodes & Staking", "address": "https://cheqd-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "cheqd", "address": "https://rpc.cheqd.net"},
+        {"provider": "Lavender.Five Nodes", "address": "https://rpc.lavenderfive.com:443/cheqd"},
+        {"provider": "🔥STAVR🔥", "address": "https://cheqd.rpc.m.stavr.tech:443"},
+        {"provider": "Notional", "address": "https://rpc-cheqd-ia.cosmosia.notional.ventures/"},
+        {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://cheqd-mainnet-rpc.autostake.com:443"},
+        {"provider": "NodeStake", "address": "https://rpc.cheqd.nodestake.org"},
+        {"provider": "WhisperNode 🤐", "address": "https://rpc-cheqd.whispernode.com:443"},
+        {"provider": "Blockval", "address": "https://rpc-cheqd.blockval.io"},
+        {"provider": "Stakewolle", "address": "https://public.stakewolle.com/cosmos/cheqd/rpc"},
+        {"provider": "Kleomedes", "address": "https://cheq-rpc.kleomedes.network"},
+        {"provider": "Allnodes ⚡️ Nodes & Staking", "address": "https://cheqd-rpc.publicnode.com:443"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.5",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "cheqd",
+    "logo": "/logos/cheqd.png",
+    "assets": [{
+        "base": "ncheq",
+        "symbol": "CHEQ",
+        "exponent": "9",
+        "coingecko_id": "cheqd-network", 
+        "logo": "/logos/cheqd.png"
+    }]
+}

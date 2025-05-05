@@ -1,0 +1,31 @@
+{
+    "chain_name": "Furya",
+    "chain_id": "furya-1",
+    "validator_address": "",
+    "registry_name": "furya",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "furya-network"
+    },
+    "coingecko": "fanfury",
+    "api": [
+        "https://furya.api.nodeshub.online/"
+    ],
+    "rpc": [
+        "https://furya.rpc.nodeshub.online/"
+    ],
+    "snapshot_provider": "",
+    "coin_type": 118,
+    "sdk_version": "0.47.8",
+    "addr_prefix": "furya",
+    "logo": "/logos/furya.png",
+    "assets": [
+        {
+            "base": "ufury",
+            "symbol": "FURY",
+            "exponent": 6,
+            "coingecko_id": "fanfury",
+            "logo": "/logos/fury.jpg"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+"chain_name": "cosmos",
+"chain_id": "cosmoshub-4",
+"validator_address": "",
+    "favorite": "true",
+    "network_type": "mainnet",
+"codebase": {
+    "github_org": "cosmos"
+  },
+"registry_name": "cosmoshub",
+"api": [
+    {"address": "https://cosmoshub.rest.lava.build", "provider": "lava.build"},
+    {"address": "https://cosmoshub.api.quasarstaking.ai", "provider": "QuasarStaking"},
+    {"address": "https://rest.cosmos.directory/cosmoshub", "provider": "cosmos.directory"},
+    {"address": "https://cosmoshub-api.lavenderfive.com:443", "provider": "Lavender.Five Nodes 🐝"},
+    {"address": "https://lcd-cosmoshub.whispernode.com:443", "provider": "WhisperNode 🤐"},
+    {"address": "https://api.cosmoshub.nodestake.top", "provider": "NodeStake"},
+    {"address": "https://cosmoshub-api.polkachu.com", "provider": "Polkachu"},
+    {"address": "https://public-cosmos-lcd.w3coins.io", "provider": "w3coins"},
+    {"address": "https://cosmoshub.api.kjnodes.com", "provider": "kjnodes"},
+    {"address": "https://api-cosmoshub.cosmos-spaces.cloud", "provider": "Cosmos Spaces"},
+    {"address": "https://api-cosmoshub.pupmos.network", "provider": "PUPMØS"},
+    {"address": "https://api-cosmoshub.blockval.io", "provider": "Blockval"},
+    {"address": "https://cosmoshub-api.ibs.team", "provider": "Inter Blockchain Services"},
+    {"address": "https://rest-cosmoshub.goldenratiostaking.net", "provider": "Golden Ratio Staking"},
+    {"address": "https://rest-cosmoshub.identity.co", "provider": "Identity Co"}
+],
+"rpc": [
+    {"address": "https://cosmoshub.tendermintrpc.lava.build", "provider": "lava.build"},
+    {"address": "https://cosmoshub.rpc.quasarstaking.ai", "provider": "QuasarStaking"},
+    {"address": "https://rpc.cosmos.directory/cosmoshub", "provider": "cosmos.directory"},
+    {"address": "https://cosmoshub-rpc.lavenderfive.com:443", "provider": "Lavender.Five Nodes 🐝"},
+    {"address": "https://rpc-cosmoshub.whispernode.com:443", "provider": "WhisperNode 🤐"},
+    {"address": "https://rpc.cosmoshub.nodestake.top", "provider": "NodeStake"},
+    {"address": "https://cosmoshub-rpc.polkachu.com", "provider": "Polkachu"},
+    {"address": "https://public-cosmos-rpc.w3coins.io", "provider": "w3coins"},
+    {"address": "https://cosmoshub.rpc.kjnodes.com", "provider": "kjnodes"},
+    {"address": "https://rpc-cosmoshub.cosmos-spaces.cloud", "provider": "Cosmos Spaces"},
+    {"address": "https://rpc-cosmoshub.pupmos.network", "provider": "PUPMØS"},
+    {"address": "https://rpc-cosmoshub.blockval.io", "provider": "Blockval"},
+    {"address": "https://cosmoshub-rpc.ibs.team", "provider": "Inter Blockchain Services"},
+    {"address": "https://rpc-cosmoshub.goldenratiostaking.net", "provider": "Golden Ratio Staking"},
+    {"address": "https://rpc-cosmoshub.identity.co", "provider": "Identity Co"}
+],
+"addr_prefix": "cosmos",
+"logo": "/logos/cosmos.svg",
+"assets": [{
+   "base": "uatom",
+    "symbol": "ATOM",
+    "exponent": "6",
+    "coingecko_id": "cosmos", 
+    "logo": "/logos/cosmos.svg"
+}]
+}

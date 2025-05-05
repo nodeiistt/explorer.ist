@@ -1,0 +1,31 @@
+{
+    "chain_name": "passage",
+    "chain_id": "passage-1",
+    "validator_address": "",
+    "registry_name": "passage",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "passage-network"
+    },
+    "api": [
+        "https://passage-api.polkachu.com",
+        "https://api.passage.nodestake.top"
+    ],
+    "rpc": [
+        "https://passage-rpc.polkachu.com:443",
+        "https://rpc.passage.nodestake.top"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.5",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "pasg",
+    "logo": "/logos/passage.png",
+    "assets": [
+        {
+            "base": "upasg",
+            "symbol": "PASG",
+            "exponent": "6"
+        }
+    ]
+}

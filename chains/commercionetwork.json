@@ -1,0 +1,36 @@
+{
+    "chain_name": "commercio",
+    "chain_id": "commercionetwork-1",
+    "validator_address": "",
+    "registry_name": "commercio",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "commercio-network"
+    },
+    "coingecko": "",
+    "api": [
+        {"provider": "Commercio", "address": "https://lcd-mainnet.commercio.network"}
+    ],
+    "rpc": [
+        {"provider": "Commercio", "address": "https://rpc-mainnet.commercio.network"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.9",
+    "coin_type": "118",
+    "min_tx_fee": "10000",
+    "addr_prefix": "did:com:",
+    "logo": "/logos/commercionetwork.png",
+    "assets": [{
+        "base": "ucommercio",
+        "symbol": "COM",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/commercionetwork.png"
+    },{
+        "base": "uccc",
+        "symbol": "CCC",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/commercionetwork.png"
+    }]
+}

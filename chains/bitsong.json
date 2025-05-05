@@ -1,0 +1,47 @@
+{
+    "chain_name": "bitsong",
+    "chain_id": "bitsong-2b",
+    "validator_address": "",
+    "registry_name": "bitsong",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "bitsongofficial"
+    },
+    "api": [
+        {"provider": "stake.systems", "address": "https://lcd.explorebitsong.com/"},
+        {"provider": "🐹 Quokka Stake", "address": "https://api.bitsong.quokkastake.io"},
+        {"provider": "Architect Nodes", "address": "https://rest-bitsong.architectnodes.com"},
+        {"provider": "TdrSys", "address": "https://bitsong.tdrsys.com"},
+        {"provider": "Panthea EU", "address": "https://bitsong-api.panthea.eu"},
+        {"provider": "MathNodes", "address": "https://api.bitsong.mathnodes.com"},
+        {"provider": "[NODERS]TEAM", "address": "https://bitsong-api.noders.services"},
+        {"provider": "🔥STAVR🔥", "address": "https://bitsong.api.m.stavr.tech"},
+        {"provider": "BlueStake 🚀", "address": "https://bitsong-api.bluestake.net"},
+        {"provider": "Polkachu", "address": "https://bitsong-api.polkachu.com"},
+        {"provider": "ToTheMars", "address": "https://bitsong-api.tothemars.network:443"}
+    ],
+    "rpc": [
+        {"provider": "stake.systems", "address": "https://rpc.explorebitsong.com"},
+        {"provider": "🐹 Quokka Stake", "address": "https://rpc.bitsong.quokkastake.io"},
+        {"provider": "Architect Nodes", "address": "https://rpc-bitsong.architectnodes.com"},
+        {"provider": "TdrSys", "address": "https://bitsong.tdrsys.com:2053"},
+        {"provider": "Panthea EU", "address": "https://bitsong-rpc.panthea.eu"},
+        {"provider": "MathNodes", "address": "https://rpc.bitsong.mathnodes.com"},
+        {"provider": "[NODERS]TEAM", "address": "https://bitsong-rpc.noders.services"},
+        {"provider": "🔥STAVR🔥", "address": "https://bitsong.rpc.m.stavr.tech:443"},
+        {"provider": "BlueStake 🚀", "address": "https://bitsong-rpc.bluestake.net:443"},
+        {"provider": "Polkachu", "address": "https://bitsong-rpc.polkachu.com:443"},
+        {"provider": "ToTheMars", "address": "https://bitsong-rpc.tothemars.network:443"}
+    ],
+    "sdk_version": "0.50.10",
+    "coin_type": "118",
+    "min_tx_fee": "0",
+    "addr_prefix": "bitsong",
+    "logo": "/logos/bitsong.svg",
+    "assets": [{
+        "base": "ubtsg",
+        "symbol": "BTSG",
+        "exponent": "6",
+        "logo": "/logos/bitsong.svg"
+    }]
+}

@@ -1,0 +1,108 @@
+{
+    "chain_name": "crescent",
+    "chain_id": "crescent-1",
+    "validator_address": "",
+    "registry_name": "crescent",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "crescent-network"
+    },
+    "api": [
+        {
+            "provider": "crescent",
+            "address": "https://mainnet.crescent.network:1317"
+        },
+        {
+            "provider": "Polkachu",
+            "address": "https://crescent-api.polkachu.com"
+        },
+        {
+            "provider": "PUPM\u00d8S",
+            "address": "https://api-crescent.pupmos.network"
+        },
+        {
+            "provider": "Stakin",
+            "address": "https://crescent.rest.stakin-nodes.com"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "address": "https://api-crescent.cosmos-spaces.cloud"
+        },
+        {
+            "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected",
+            "address": "https://crescent-mainnet-lcd.autostake.com:443"
+        },
+        {
+            "provider": "Stakeflow",
+            "address": "https://api-crescent-01.stakeflow.io"
+        },
+        {
+            "provider": "w3coins",
+            "address": "https://crescent-api.w3coins.io"
+        },
+        {
+            "provider": "Bro_n_Bro",
+            "address": "https://lcd.crescent.bronbro.io:443"
+        }
+    ],
+    "rpc": [
+        {
+            "provider": "crescent",
+            "address": "https://mainnet.crescent.network:26657"
+        },
+        {
+            "provider": "Polkachu",
+            "address": "https://crescent-rpc.polkachu.com"
+        },
+        {
+            "provider": "PUPM\u00d8S",
+            "address": "https://rpc-crescent.pupmos.network"
+        },
+        {
+            "provider": "Stakin",
+            "address": "https://crescent.rpc.stakin-nodes.com"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "address": "https://rpc-crescent.cosmos-spaces.cloud"
+        },
+        {
+            "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected",
+            "address": "https://crescent-mainnet-rpc.autostake.com:443"
+        },
+        {
+            "provider": "Stakeflow",
+            "address": "https://rpc-crescent-01.stakeflow.io"
+        },
+        {
+            "provider": "w3coins",
+            "address": "https://crescent-rpc.w3coins.io"
+        },
+        {
+            "provider": "Bro_n_Bro",
+            "address": "https://rpc.crescent.bronbro.io:443"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.3",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "cre",
+    "logo": "/logos/crescent.png",
+    "assets": [
+        {
+            "base": "ucre",
+            "symbol": "CRE",
+            "exponent": "6",
+            "coingecko_id": "crescent-network",
+            "logo": "/logos/cre.png"
+        },
+        {
+            "base": "ubcre",
+            "symbol": "bCRE",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "/logos/cre.png"
+        }
+    ]
+}

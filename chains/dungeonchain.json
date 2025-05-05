@@ -1,0 +1,29 @@
+{
+    "chain_name": "Dungeonchain",
+    "chain_id": "dungeonchain-1",
+    "validator_address": "",
+    "registry_name": "dungeonchain",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "dungeonchain"
+    }, "api": [
+        {"provider": "Quasar", "address": "https://dungeon-wallet.api.quasarstaking.ai"},
+        {"provider": "Proxy", "address": "https://rest.cosmos.directory/dungeon"}
+    ],
+    "rpc": [
+        {"provider": "Quasar", "address": "https://dungeon-wallet.rpc.quasarstaking.ai"},
+        {"provider": "Proxy", "address": "https://rpc.cosmos.directory/dungeon"}
+    ],
+    "sdk_version": "0.50.9",
+    "coin_type": "118",
+    "min_tx_fee": "0",
+    "addr_prefix": "dungeon",
+    "logo": "/logos/dungeon.png",
+    "assets": [{
+        "base": "udgn",
+        "coingecko_id": "dragon-coin-2",
+        "symbol": "DGN",
+        "exponent": "6",
+        "logo": "/logos/dungeon.png"
+    }]
+}

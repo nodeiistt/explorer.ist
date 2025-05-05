@@ -1,0 +1,107 @@
+{
+    "chain_name": "axelar",
+    "chain_id": "axelar-1",
+    "validator_address": "",
+    "registry_name": "axelar",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "axelar-network"
+    },
+    "api": [
+        {"provider": "nodes.guru", "address": "https://api-1.axelar.nodes.guru:443"},
+        {"provider": "Imperator.co", "address": "https://lcd-axelar.imperator.co:443"},
+        {"provider": "chainlayer", "address": "https://axelar-lcd.quickapi.com:443"},
+        {"provider": "Cosmos Spaces", "address": "https://api-axelar.cosmos-spaces.cloud"},
+        {"provider": "Qubelabs", "address": "https://axelar-lcd.qubelabs.io:443"},
+        {"provider": "Notional", "address": "https://api-axelar-ia.cosmosia.notional.ventures/"},
+        {"provider": "Polkachu", "address": "https://axelar-api.polkachu.com"},
+        {"provider": "Stakin", "address": "https://axelar.rest.stakin-nodes.com"},
+        {"provider": "BlockHunters 🎯", "address": "https://api.axelar.bh.rocks"},
+        {"provider": "Validatrium", "address": "https://axelar-api.validatrium.club"},
+        {"provider": "WhisperNode 🤐", "address": "https://lcd-axelar.whispernode.com:443"},
+        {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://axelar-mainnet-lcd.autostake.com:443"},
+        {"provider": "QuantNode", "address": "https://axelar.lcd.quantnode.xyz/"},
+        {"provider": "Inter Blockchain Services", "address": "https://axelar-api.ibs.team"},
+        {"provider": "Stakeflow", "address": "https://api-axelar-01.stakeflow.io"},
+        {"provider": "Staketab", "address": "https://axelar-rest.staketab.org"},
+        {"provider": "w3coins", "address": "https://axelar-api.w3coins.io"},
+        {"provider": "Allnodes ⚡️ Nodes & Staking", "address": "https://axelar-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "nodes.guru", "address": "https://rpc-1.axelar.nodes.guru:443"},
+        {"provider": "Imperator.co", "address": "https://rpc-axelar.imperator.co:443"},
+        {"provider": "chainlayer", "address": "https://axelar-rpc.quickapi.com:443"},
+        {"provider": "Cosmos Spaces", "address": "https://rpc-axelar.cosmos-spaces.cloud"},
+        {"provider": "p-ops", "address": "https://axelar-rpc.pops.one:443"},
+        {"provider": "Qubelabs", "address": "https://axelar-rpc.qubelabs.io:443"},
+        {"provider": "Notional", "address": "https://rpc-axelar-ia.cosmosia.notional.ventures/"},
+        {"provider": "Polkachu", "address": "https://axelar-rpc.polkachu.com"},
+        {"provider": "Stakin", "address": "https://axelar.rpc.stakin-nodes.com"},
+        {"provider": "BlockHunters 🎯", "address": "https://rpc.axelar.bh.rocks"},
+        {"provider": "Validatrium", "address": "https://axelar-rpc.validatrium.club"},
+        {"provider": "WhisperNode 🤐", "address": "https://rpc-axelar.whispernode.com:443"},
+        {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://axelar-mainnet-rpc.autostake.com:443"},
+        {"provider": "QuantNode", "address": "https://axelar.rpc.quantnode.xyz/"},
+        {"provider": "Inter Blockchain Services", "address": "https://axelar-rpc.ibs.team"},
+        {"provider": "Stakeflow", "address": "https://rpc-axelar-01.stakeflow.io"},
+        {"provider": "Staketab", "address": "https://axelar-rpc.staketab.org:443"},
+        {"provider": "w3coins", "address": "https://axelar-rpc.w3coins.io"},
+        {"provider": "Allnodes ⚡️ Nodes & Staking", "address": "https://axelar-rpc.publicnode.com:443"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.6",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "axelar",
+    "logo": "/logos/axelar.svg",
+    "theme_color": "#161723",
+    "assets": [{
+        "base": "uaxl",
+        "symbol": "AXL",
+        "exponent": "6",
+        "coingecko_id": "axelar",
+        "logo": "/logos/axelar.svg"
+    }, {
+        "base": "uusdc",
+        "symbol": "axlUSDC",
+        "exponent": "6",
+        "coingecko_id": "usd-coin",
+        "logo": "/logos/usdc.svg"
+    }, {
+        "base": "uusdt",
+        "symbol": "axlUSDT",
+        "exponent": "6",
+        "coingecko_id": "tether",
+        "logo": "/logos/usdt.svg"
+    }, {
+        "base": "dai-wei",
+        "symbol": "axlDAI",
+        "exponent": "18",
+        "coingecko_id": "dai",
+        "logo": "/logos/dai.svg"
+    }, {
+        "base": "weth-wei",
+        "symbol": "axlWETH",
+        "exponent": "18",
+        "coingecko_id": "ethereum",
+        "logo": "/logos/weth.svg"
+    }, {
+        "base": "wmatic-wei",
+        "symbol": "axlWMATIC",
+        "exponent": "18",
+        "coingecko_id": "matic-network",
+        "logo": "/logos/wmatic.svg"
+    }, {
+        "base": "wavax-wei",
+        "symbol": "axlWAVAX",
+        "exponent": "18",
+        "coingecko_id": "avalanche-2",
+        "logo": "/logos/wavax.svg"
+    }, {
+        "base": "dot-planck",
+        "symbol": "axlDOT",
+        "exponent": "10",
+        "coingecko_id": "polkadot",
+        "logo": "/logos/dot.svg"
+    }]
+}

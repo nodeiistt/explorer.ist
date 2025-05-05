@@ -1,0 +1,36 @@
+﻿{
+    "chain_name":  "nolus-testnet",
+    "coingecko":  "nolus",
+    "api":  [
+                {
+                    "provider":  "Nolus",
+                    "address":  "https://rila-lcd.nolus.network"
+                }
+            ],
+    "rpc":  [
+                {
+                    "provider":  "Nolus",
+                    "address":  "https://rila-rpc.nolus.network"
+                }
+            ],
+    "snapshot_provider":  "",
+    "sdk_version":  "https://lcd.nolus.network",
+    "coin_type":  "118",
+    "min_tx_fee":  "0",
+    "addr_prefix":  "nolus",
+    "logo":  "/logos/nolus.svg",
+    "assets":  [
+                   {
+                       "base":  "unls",
+                       "symbol":  "NLS",
+                       "exponent":  "6",
+                       "coingecko_id":  "nolus",
+                       "logo":  "/logos/nolus.svg"
+                   }
+               ],
+    "codebase":  {
+                     "github_org":  ""
+                 },
+    "network_type":  "testnet",
+    "registry_name":  ""
+}

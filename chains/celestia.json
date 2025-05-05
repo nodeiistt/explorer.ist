@@ -1,0 +1,148 @@
+{
+    "chain_name": "celestia",
+    "chain_id": "celestia-1",
+    "validator_address": "",
+    "registry_name": "celestia",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "celestia"
+    },
+    "api": [
+        {
+            "provider": "Lunar Oasis",
+            "address": "https://api.lunaroasis.net"
+        },
+        {
+            "provider": "NodeStake",
+            "address": "https://api.celestia.nodestake.org"
+        },
+        {
+            "provider": "Lavender.Five Nodes \ud83d\udc1d",
+            "address": "https://rest.lavenderfive.com:443/celestia"
+        },
+        {
+            "provider": "Stakeflow",
+            "address": "https://api-celestia-01.stakeflow.io"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "address": "https://api-celestia.cosmos-spaces.cloud"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "address": "https://celestia-api.noders.services"
+        },
+        {
+            "provider": "Stakin",
+            "address": "https://celestia.rest.stakin-nodes.com"
+        },
+        {
+            "provider": "kjnodes",
+            "address": "https://celestia.api.kjnodes.com"
+        },
+        {
+            "provider": "MZONDER",
+            "address": "https://api-celestia.mzonder.com"
+        },
+        {
+            "provider": "AM Solutions",
+            "address": "https://rest-celestia.theamsolutions.info"
+        },
+        {
+            "provider": "AutoStake | Delegate for StakeDrops",
+            "address": "https://celestia-mainnet-lcd.autostake.com:443"
+        },
+        {
+            "provider": "StakeTown",
+            "address": "https://celestia-api.stake-town.com"
+        },
+        {
+            "provider": "Bro_n_Bro",
+            "address": "https://lcd.celestia-app.bronbro.io"
+        },
+        {
+            "provider": "\ud83d\ude80 itrocket \ud83d\ude80",
+            "address": "https://celestia-mainnet-api.itrocket.net"
+        },
+        {
+            "provider": "Stake&Relax Validator \ud83e\udda5",
+            "address": "https://celestia-api.stakeandrelax.net"
+        }
+    ],
+    "rpc": [
+        {
+            "provider": "Lunar Oasis",
+            "address": "https://rpc.lunaroasis.net"
+        },
+        {
+            "provider": "NodeStake",
+            "address": "https://rpc.celestia.nodestake.org"
+        },
+        {
+            "provider": "Lavender.Five Nodes \ud83d\udc1d",
+            "address": "https://rpc.lavenderfive.com:443/celestia"
+        },
+        {
+            "provider": "Stakeflow",
+            "address": "https://rpc-celestia-01.stakeflow.io"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "address": "https://rpc-celestia.cosmos-spaces.cloud"
+        },
+        {
+            "provider": "[NODERS]TEAM",
+            "address": "https://celestia.rpc.noders.services"
+        },
+        {
+            "provider": "Stakin",
+            "address": "https://celestia.rpc.stakin-nodes.com"
+        },
+        {
+            "provider": "kjnodes",
+            "address": "https://celestia.rpc.kjnodes.com"
+        },
+        {
+            "provider": "MZONDER",
+            "address": "https://rpc-celestia.mzonder.com"
+        },
+        {
+            "provider": "AM Solutions",
+            "address": "https://rpc-celestia.theamsolutions.info"
+        },
+        {
+            "provider": "AutoStake | Delegate for StakeDrops",
+            "address": "https://celestia-mainnet-rpc.autostake.com:443"
+        },
+        {
+            "provider": "StakeTown",
+            "address": "https://celestia-rpc.stake-town.com"
+        },
+        {
+            "provider": "Bro_n_Bro",
+            "address": "https://rpc.celestia-app.bronbro.io"
+        },
+        {
+            "provider": "\ud83d\ude80 itrocket \ud83d\ude80",
+            "address": "https://celestia-mainnet-rpc.itrocket.net"
+        },
+        {
+            "provider": "Stake&Relax Validator \ud83e\udda5",
+            "address": "https://celestia-rpc.stakeandrelax.net"
+        }
+    ],
+    "sdk_version": "0.47.0",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "celestia",
+    "logo": "/logos/celestia.png",
+    "assets": [
+        {
+            "base": "utia",
+            "symbol": "TIA",
+            "exponent": "6",
+            "coingecko_id": "celestia",
+            "logo": "/logos/celestia.png"
+        }
+    ]
+}

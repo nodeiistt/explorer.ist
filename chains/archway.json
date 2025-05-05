@@ -1,0 +1,77 @@
+{
+    "chain_name": "archway",
+    "chain_id": "archway-1",
+    "validator_address": "",
+    "registry_name": "archway",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "archway-network"
+    },
+    "api": [
+        {"provider": "Nodes.Guru", "address": "https://api-1.archway.nodes.guru"},
+        {"provider": "Archway Foundation", "address": "https://api.mainnet.archway.io"},
+        {"provider": "w3coins", "address": "https://archway-api.w3coins.io"},
+        {"provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀", "address": "https://m-archway.api.utsa.tech"},
+        {"provider": "Silk Nodes", "address": "https://archway.api.silknodes.io/"},
+        {"provider": "kjnodes", "address": "https://archway.api.kjnodes.com"},
+        {"provider": "cryptech", "address": "https://api-archway.cryptech.com.ua"},
+        {"provider": "AM Solutions", "address": "https://rest-archway.theamsolutions.info"},
+        {"provider": "MMS", "address": "https://api-archway.mms.team"},
+        {"provider": "MZONDER", "address": "https://api-archway.mzonder.com"},
+        {"provider": "Luganodes", "address": "https://rest.archway.lgns.net"},
+        {"provider": "StakeTown", "address": "https://archway-api.stake-town.com"},
+        {"provider": "0base.vc", "address": "https://archway-rest.0base.dev"},
+        {"provider": "L0vd.com", "address": "https://archway-mainnet.api.l0vd.com"},
+        {"provider": "openbitlab", "address": "https://archway-api.openbitlab.com"},
+        {"provider": "Validatrium", "address": "https://api-archway.mainnet.validatrium.club"},
+        {"provider": "StakeUp", "address": "https://api.archway.stakeup.tech"},
+        {"provider": "Stake&Relax 🦥", "address": "https://archway-api.stakeandrelax.net"},
+        {"provider": "Bro_n_Bro", "address": "https://lcd.archway.bronbro.io:443"},
+        {"provider": "[NODERS]TEAM", "address": "https://archway-api.noders.services"},
+        {"provider": "Chainroot", "address": "https://archway-api.chainroot.io"}
+    ],
+    "rpc": [
+        {"provider": "Nodes.Guru", "address": "https://rpc-1.archway.nodes.guru"},
+        {"provider": "Archway Foundation", "address": "https://rpc.mainnet.archway.io"},
+        {"provider": "All That Node", "address": "https://archway-mainnet-archive.allthatnode.com:26657"},
+        {"provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀", "address": "https://m-archway.rpc.utsa.tech"},
+        {"provider": "Silk Nodes", "address": "https://archway.rpc.silknodes.io/"},
+        {"provider": "kjnodes", "address": "https://archway.rpc.kjnodes.com"},
+        {"provider": "cryptech", "address": "https://rpc-archway.cryptech.com.ua"},
+        {"provider": "AM Solutions", "address": "https://rpc-archway.theamsolutions.info"},
+        {"provider": "MMS", "address": "https://rpc-archway.mms.team"},
+        {"provider": "MZONDER", "address": "https://rpc-archway.mzonder.com"},
+        {"provider": "Luganodes", "address": "https://rpc.archway.lgns.net"},
+        {"provider": "StakeTown", "address": "https://archway-rpc.stake-town.com"},
+        {"provider": "0base.vc", "address": "https://archway-rpc.0base.dev"},
+        {"provider": "L0vd.com", "address": "https://archway-mainnet.rpc.l0vd.com"},
+        {"provider": "openbitlab", "address": "https://archway-rpc.openbitlab.com"},
+        {"provider": "Validatrium", "address": "https://rpc-archway.mainnet.validatrium.club"},
+        {"provider": "StakeUp", "address": "https://rpc.archway.stakeup.tech"},
+        {"provider": "Stake&Relax 🦥", "address": "https://archway-rpc.stakeandrelax.net"},
+        {"provider": "Bro_n_Bro", "address": "https://rpc.archway.bronbro.io:443"},
+        {"provider": "[NODERS]TEAM", "address": "https://archway-rpc.noders.services"},
+        {"provider": "Chainroot", "address": "https://archway-rpc.chainroot.io"}
+    ],
+    "snapshot_provider": "https://www.polkachu.com/tendermint_snapshots/archway",
+    "sdk_version": "0.50.10",
+    "coin_type": "118",
+    "min_tx_fee": "0",
+    "addr_prefix": "archway",
+    "logo": "/logos/archway.png",
+    "assets": [
+        {
+            "base": "aarch",
+            "symbol": "ARCH",
+            "exponent": "18",
+            "logo": "/logos/archway.png"
+        },{
+            "base": 
+    "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58",
+            "symbol": "CULT",
+            "exponent": "6",
+            "coingecko_id": "", 
+            "logo": "/logos/cult.png"
+        }
+    ]
+}

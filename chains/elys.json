@@ -1,0 +1,92 @@
+{
+    "chain_name": "elys",
+    "chain_id": "elys-1",
+    "validator_address": "",
+    "registry_name": "elys",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "elys-network"
+    },
+    "api": [
+        {
+            "address": "https://api.elys.network",
+            "provider": "Elys Network"
+        },
+        {
+            "address": "https://elys-api.polkachu.com",
+            "provider": "Polkachu"
+        },
+        {
+            "address": "https://elys-rest.publicnode.com",
+            "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+        },
+        {
+            "address": "https://elys-mainnet-api.itrocket.net",
+            "provider": "itrocket"
+        },
+        {
+            "address": "https://api.elys.nodestake.org",
+            "provider": "NodeStake"
+        },
+        {
+            "provider": "Quasar API",
+            "address": "https://elys.api.quasarstaking.ai"
+        },
+        {
+            "provider": "vNodes[V] [MTL Canada] Ser[V]ices",
+            "address": "https://elys.rest.vnodesv.net"
+        },
+        {
+            "provider": "vNodes[V] [RBX France] Ser[V]ices",
+            "address": "https://elys.rest.fr.vnodesv.net"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.elys.network:443",
+            "provider": "Elys Network"
+        },
+        {
+            "address": "https://elys-rpc.polkachu.com:443",
+            "provider": "Polkachu"
+        },
+        {
+            "address": "https://elys-rpc.publicnode.com:443",
+            "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+        },
+        {
+            "address": "https://elys-mainnet-rpc.itrocket.net:443",
+            "provider": "itrocket"
+        },
+        {
+            "address": "https://rpc.elys.nodestake.org:443",
+            "provider": "NodeStake"
+        },
+        {
+            "provider": "Quasar RPC",
+            "address": "https://elys.rpc.quasarstaking.ai:443"
+        },
+        {
+            "provider": "vNodes[V] [MTL Canada] Ser[V]ices",
+            "address": "https://elys.rpc.vnodesv.net"
+        },
+        {
+            "provider": "vNodes[V] [RBX France] Ser[V]ices",
+            "address": "https://elys.rpc.fr.vnodesv.net"
+        }
+    ],
+    "coin_type": "118",
+    "sdk_version": "0.50.9",
+    "addr_prefix": "elys",
+    "min_tx_fee": "0",
+    "logo": "/logos/elys.png",
+    "assets": [
+        {
+            "symbol": "ELYS",
+            "base": "uelys",
+            "exponent": 6,
+            "coingecko_id": "elys",
+            "logo": "/logos/elys.png"
+        }
+    ]
+}

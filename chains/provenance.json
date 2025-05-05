@@ -1,0 +1,25 @@
+{
+    "chain_name": "provenance",
+    "chain_id": "provenance-1",
+    "validator_address": "",
+    "registry_name": "provenance",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "provenance-io"
+    },   "coingecko": "",
+    "api": "https://api.provenance.io",
+    "rpc": ["https://rpc.provenance.io:443", "https://rpc.provenance.io:443"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.12",
+    "coin_type": "505",
+    "min_tx_fee": "800000000",
+    "addr_prefix": "pb",
+    "logo": "/logos/provenance.svg",
+    "assets": [{
+        "base": "nhash",
+        "symbol": "HASH",
+        "exponent": "9",
+        "coingecko_id": "provenance-blockchain", 
+        "logo": "/logos/provenance.svg"
+    }]
+}

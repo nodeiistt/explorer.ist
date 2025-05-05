@@ -1,0 +1,35 @@
+{
+    "chain_name": "Migaloo",
+    "chain_id": "migaloo-1",
+    "validator_address": "",
+    "registry_name": "migaloo",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "migaloo-network"
+    },
+    "coingecko": "white-whale",
+    "api": [
+        "https://migaloo-api.polkachu.com",
+        "https://api.migaloo.silknodes.io",
+        "https://api.whitewhale.nodestake.top"
+    ],
+    "rpc": [
+        "https://migaloo-rpc.polkachu.com/:443",
+        "https://rpc.migaloo.silknodes.io",
+        "https://rpc.whitewhale.nodestake.top"
+    ],
+    "snapshot_provider": "",
+    "coin_type": 118,
+    "sdk_version": "0.45.9",
+    "addr_prefix": "migaloo",
+    "logo": "/logos/migaloo.png",
+    "assets": [
+        {
+            "base": "uwhale",
+            "symbol": "WHALE",
+            "exponent": 6,
+            "coingecko_id": "white-whale",
+            "logo": "/logos/migaloo.jpg"
+        }
+    ]
+}

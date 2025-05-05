@@ -1,0 +1,51 @@
+{
+    "chain_name": "band",
+    "chain_id": "band-laozi-mainnet",
+    "validator_address": "",
+    "registry_name": "band",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "bandprotocol"
+    },
+    "api": [
+        {"provider": "bandprotocol", "address": "https://laozi1.bandchain.org/api"},
+        {"provider": "Notional", "address": "https://api-bandchain-ia.cosmosia.notional.ventures/"},
+        {"provider": "Inter Blockchain Services", "address": "https://band-api.ibs.team/"},
+        {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://bandchain-mainnet-lcd.autostake.com:443"},
+        {"provider": "🔥STAVR🔥", "address": "https://band.api.m.stavr.tech"},
+        {"provider": "Stakeflow", "address": "https://api-band-01.stakeflow.io"},
+        {"provider": "Cosmos Spaces", "address": "https://api-band.cosmos-spaces.cloud"},
+        {"provider": "w3coins", "address": "https://band-api.w3coins.io"},
+        {"provider": "High Stakes 🇨🇭", "address": "https://bandprotocol-api.highstakes.ch"},
+        {"provider": "Stakewolle", "address": "https://public.stakewolle.com/cosmos/bandchain/rest"},
+        {"provider": "Bro_n_Bro", "address": "https://lcd.band.bronbro.io/"},
+        {"provider": "Roomit", "address": "https://api.band.roomit.xyz/"},
+        {"provider": "[NODERS]TEAM", "address": "https://band-api.noders.services"}
+    ],
+    "rpc": [
+        {"provider": "bandprotocol", "address": "http://rpc.laozi1.bandchain.org:80"},
+        {"provider": "Notional", "address": "https://rpc-bandchain-ia.cosmosia.notional.ventures/"},
+        {"provider": "Inter Blockchain Services", "address": "https://band-rpc.ibs.team/"},
+        {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://bandchain-mainnet-rpc.autostake.com:443"},
+        {"provider": "🔥STAVR🔥", "address": "https://band.rpc.m.stavr.tech:443"},
+        {"provider": "Stakeflow", "address": "https://rpc-band-01.stakeflow.io"},
+        {"provider": "Cosmos Spaces", "address": "https://rpc-band.cosmos-spaces.cloud"},
+        {"provider": "w3coins", "address": "https://band-rpc.w3coins.io"},
+        {"provider": "High Stakes 🇨🇭", "address": "https://bandprotocol-rpc.highstakes.ch"},
+        {"provider": "Stakewolle", "address": "https://public.stakewolle.com/cosmos/bandchain/rpc"},
+        {"provider": "Bro_n_Bro", "address": "https://rpc.band.bronbro.io/"},
+        {"provider": "Roomit", "address": "https://rpc.band.roomit.xyz/"},
+        {"provider": "[NODERS]TEAM", "address": "https://band-rpc.noders.services"}
+    ],
+    "addr_prefix": "band",
+    "coin_type": "118",
+    "min_tx_fee": "0",
+    "assets": [{
+        "base": "uband",
+        "symbol": "BAND",   
+        "exponent": "6",
+        "logo": "/logos/band.svg"
+    }],
+    "logo": "/logos/band.svg",
+    "sdk_version": "0.50.10"
+}

@@ -1,0 +1,53 @@
+{
+    "chain_name": "bostrom",
+    "chain_id": "bostrom-1",
+    "validator_address": "",
+    "registry_name": "bostrom",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "bostrom"
+    },
+    "api": [
+        {
+            "provider": "Bro_n_Bro",
+            "address": "https://lcd.cyber.bronbro.io:443"
+        },
+        {
+            "provider": "cybercongress",
+            "address": "https://lcd.bostrom.cybernode.ai"
+        },
+        {
+            "provider": "Notional",
+            "address": "https://api-cyber-ia.cosmosia.notional.ventures/"
+        }
+    ],
+    "rpc": [
+        {
+            "provider": "Bro_n_Bro",
+            "address": "https://rpc.cyber.bronbro.io:443"
+        },
+        {
+            "provider": "cybercongress",
+            "address": "https://rpc.bostrom.cybernode.ai"
+        },
+        {
+            "provider": "Notional",
+            "address": "https://rpc-cyber-ia.cosmosia.notional.ventures/"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.44.3",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "bostrom",
+    "logo": "/logos/bostrom.png",
+    "assets": [
+        {
+            "base": "boot",
+            "symbol": "BOOT",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "/logos/bostrom.png"
+        }
+    ]
+}

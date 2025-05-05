@@ -1,0 +1,152 @@
+{
+    "chain_name": "nibiru",
+    "chain_id": "nibiru-1",
+    "validator_address": "",
+    "registry_name": "nibiru",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "nibiru-protocol"
+    },
+    "coingecko": "nibiru",
+    "api": [
+        {
+            "address": "https://lcd.nibiru.fi",
+            "provider": "Nibiru Foundation"
+        },
+        {
+            "address": "https://nibiru.api.kjnodes.com",
+            "provider": "kjnodes.com \ud83e\udd84"
+        },
+        {
+            "address": "https://api.nibiru.nodestake.org",
+            "provider": "NodeStake"
+        },
+        {
+            "address": "https://api.nibiru.silentvalidator.com",
+            "provider": "silent"
+        },
+        {
+            "address": "https://nibiru-api.lavenderfive.com:443",
+            "provider": "Lavender.Five Nodes \ud83d\udc1d"
+        },
+        {
+            "address": "https://nibiru.api.liveraven.net",
+            "provider": "LiveRaveN"
+        },
+        {
+            "address": "https://nibiru-api.cogwheel.zone",
+            "provider": "Cogwheel \u2699\ufe0f"
+        },
+        {
+            "address": "https://nibiru.api.m.stavr.tech",
+            "provider": "\ud83d\udd25STAVR\ud83d\udd25"
+        },
+        {
+            "address": "https://nibiru.api.nodeshub.online:443",
+            "provider": "Nodes Hub \ud83d\udee1\ufe0f 100% Slash Protected \ud83d\udee1\ufe0f | Restake \u2705"
+        },
+        {
+            "address": "https://nibiru.api.staking-explorer.com",
+            "provider": "Daily DROP | 2% Fee"
+        },
+        {
+            "address": "https://nibiru-api.noders.services",
+            "provider": "[NODERS]TEAM"
+        },
+        {
+            "address": "https://nibiru-mainnet.api.stakevillage.net",
+            "provider": "Stake Village"
+        },
+        {
+            "address": "https://nibiru-rest.publicnode.com",
+            "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.nibiru.fi",
+            "provider": "Nibiru Foundation"
+        },
+        {
+            "address": "https://nibiru.rpc.kjnodes.com",
+            "provider": "kjnodes.com \ud83e\udd84"
+        },
+        {
+            "address": "https://rpc.nibiru.nodestake.org",
+            "provider": "NodeStake"
+        },
+        {
+            "address": "https://nibiru-rpc.lavenderfive.com:443",
+            "provider": "Lavender.Five Nodes \ud83d\udc1d"
+        },
+        {
+            "address": "https://rpc.nibiru.silentvalidator.com",
+            "provider": "silent"
+        },
+        {
+            "address": "https://nibiru.rpc.liveraven.net",
+            "provider": "LiveRaveN"
+        },
+        {
+            "address": "https://nibiru-rpc.cogwheel.zone",
+            "provider": "Cogwheel \u2699\ufe0f"
+        },
+        {
+            "address": "https://nibiru.rpc.nodeshub.online:443",
+            "provider": "Nodes Hub \ud83d\udee1\ufe0f 100% Slash Protected \ud83d\udee1\ufe0f | Restake \u2705"
+        },
+        {
+            "address": "https://nibiru.rpc.m.stavr.tech:443",
+            "provider": "\ud83d\udd25STAVR\ud83d\udd25"
+        },
+        {
+            "address": "https://nibiru-rpc.noders.services",
+            "provider": "[NODERS]TEAM"
+        },
+        {
+            "address": "https://nibiru-mainnet.rpc.stakevillage.net:443",
+            "provider": "Stake Village"
+        },
+        {
+            "address": "https://nibiru-rpc.publicnode.com:443",
+            "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.10",
+    "coin_type": "118",
+    "min_tx_fee": "250",
+    "addr_prefix": "nibi",
+    "logo": "/logos/nibiru.svg",
+    "theme_color": "#04d9d9",
+    "assets": [
+        {
+            "base": "unibi",
+            "symbol": "NIBI",
+            "exponent": "6",
+            "coingecko_id": "nibiru",
+            "logo": "/logos/nibiru.svg"
+        },
+        {
+            "base": "tf/nibi149m52kn7nvsg5nftvv4fh85scsavpdfxp5nr7zasz97dum89dp5qkyhy0t/uoprek",
+            "symbol": "UOPREK",
+            "exponent": "0",
+            "coingecko_id": "",
+            "logo": ""
+        },
+        {
+            "base": "tf/nibi1lp28kx3gz0prsztl024z730ufkg3alahaq3e7a6gae22nk0dqdvsyrrgqw/utestate",
+            "symbol": "UTESTATE",
+            "exponent": "0",
+            "coingecko_id": "",
+            "logo": ""
+        },
+        {
+            "base": "tf/nibi1xpp7yn0tce62ffattws3gpd6v0tah0mlevef3ej3r4pnfvsehcgqk3jvxq/NPP",
+            "symbol": "NPP",
+            "exponent": "0",
+            "coingecko_id": "",
+            "logo": ""
+        }
+    ]
+}

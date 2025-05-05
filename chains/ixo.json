@@ -1,0 +1,30 @@
+{
+    "chain_name": "ixo",
+    "chain_id": "ixo-1",
+    "validator_address": "",
+    "registry_name": "ixo",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "ixo-network"
+    },
+    "api": [
+        "https://impacthub.ixo.world/rest",
+        "https://proxies.sifchain.finance/api/impacthub-3/rest"
+    ],
+    "rpc": [],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.4",
+    "coin_type": "118",
+    "min_tx_fee": "3000",
+    "addr_prefix": "ixo",
+    "logo": "/logos/ixo.svg",
+    "assets": [
+        {
+            "base": "uixo",
+            "symbol": "IXO",
+            "exponent": "6",
+            "coingecko_id": "ixo",
+            "logo": "/logos/ixo.svg"
+        }
+    ]
+}

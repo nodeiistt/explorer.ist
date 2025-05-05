@@ -1,0 +1,32 @@
+{
+    "chain_name": "empower",
+    "chain_id": "empower-1",
+    "validator_address": "",
+    "registry_name": "empower",
+    "network_type": "mainnet",
+    "codebase": {
+        "github_org": "empowerchain"
+    },   "coingecko": "",
+    "api": [
+        {"provider": "Quasar", "address": "https://api.empower.nodestake.top"},
+        {"provider": "Proxy", "address": "https://empower-api.polkachu.com"}
+    ],
+    "rpc": [
+        {"provider": "Quasar", "address": "https://rpc.empower.nodestake.top"},
+        {"provider": "Proxy", "address": "https://empower-rpc.polkachu.com"}
+    ],
+
+    "snapshot_provider": "",
+    "sdk_version": "0.47.5",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "empower",
+    "logo": "/logos/empower.png",
+    "assets": [{
+        "base": "umpwr",
+        "symbol": "MPWR",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/empower.png"
+    }]
+}

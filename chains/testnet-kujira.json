@@ -1,0 +1,30 @@
+﻿{
+    "chain_name":  "kujira-testnet",
+    "coingecko":  "",
+    "api":  [
+                "https://kujira-testnet-api.polkachu.com"
+            ],
+    "rpc":  [
+                "https://kujira-testnet-rpc.polkachu.com"
+            ],
+    "snapshot_provider":  "",
+    "sdk_version":  "0.45.4",
+    "coin_type":  "118",
+    "min_tx_fee":  "1250",
+    "addr_prefix":  "kujira",
+    "logo":  "/logos/kujira.png",
+    "assets":  [
+                   {
+                       "base":  "ukuji",
+                       "symbol":  "KUJI",
+                       "exponent":  "6",
+                       "coingecko_id":  "kujira",
+                       "logo":  "/logos/kujira.png"
+                   }
+               ],
+    "codebase":  {
+                     "github_org":  ""
+                 },
+    "network_type":  "testnet",
+    "registry_name":  ""
+}
