@@ -1,0 +1,58 @@
+{
+    "chain_name":  "odiseo-testnet",
+    "coingecko":  "",
+    "api":  [
+        {
+            "address": "https://testnet-api.daodiseo.chaintools.tech",
+            "provider": "DAODISEO"
+          },
+          {
+            "address": "https://daodiseo-testnet-rest.stakerhouse.com",
+            "provider": "StakerHouse"
+          },
+          {
+            "address": "https://odiseo-testnet-api.bonynode.online",
+            "provider": "BonyNode"
+          },
+          {
+            "address": "https://odiseo_testnet_api.chain.whenmoonwhenlambo.money",
+            "provider": "WHEN MOON 🌕 WHEN LAMBO 🔥"
+          }            ],
+    "rpc":  [
+        {
+            "address": "https://testnet-rpc.daodiseo.chaintools.tech",
+            "provider": "DAODISEO"
+          },
+          {
+            "address": "https://daodiseo-testnet-rpc.stakerhouse.com",
+            "provider": "StakerHouse"
+          },
+          {
+            "address": "https://odiseo-testnet-rpc.bonynode.online",
+            "provider": "BonyNode"
+          },
+          {
+            "address": "https://odiseo_testnet_rpc.chain.whenmoonwhenlambo.money",
+            "provider": "WHEN MOON 🌕 WHEN LAMBO 🔥"
+          }    ],
+    "snapshot_provider":  "",
+    "sdk_version":  "0.42.0",
+    "coin_type":  "852",
+    "min_tx_fee":  "3000",
+    "addr_prefix":  "odiseo",
+    "logo":  "/logos/odiseo.jpg",
+    "assets":  [
+                   {
+                       "base":  "uodis",
+                       "symbol":  "odis",
+                       "exponent":  "6",
+                       "coingecko_id":  "",
+                       "logo":  "/logos/odiseo.jpg"
+                   }
+               ],
+    "codebase":  {
+                     "github_org":  ""
+                 },
+    "network_type":  "testnet",
+    "registry_name":  ""
+}

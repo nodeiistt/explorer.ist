@@ -14,14 +14,14 @@
     "coin_type":  "370",
     "min_tx_fee":  "8000",
     "addr_prefix":  "bze",
-    "logo":  "https://assets.coingecko.com/coins/images/7814/large/BZEdge_Color_icon.png",
+    "logo":  "/logos/BZEdge_Color_icon.png",
     "assets":  [
                    {
                        "base":  "ubze",
                        "symbol":  "BZE",
                        "exponent":  "6",
                        "coingecko_id":  "bzedge",
-                       "logo":  "https://assets.coingecko.com/coins/images/7814/large/BZEdge_Color_icon.png"
+                       "logo":  "/logos/BZEdge_Color_icon.png"
                    }
                ],
     "codebase":  {

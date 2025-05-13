@@ -12,14 +12,14 @@
     "coin_type":  "118",
     "min_tx_fee":  "5000000000000",
     "addr_prefix":  "cudos",
-    "logo":  "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png",
+    "logo":  "/logos/cudos.png",
     "assets":  [
                    {
                        "base":  "acudos",
                        "symbol":  "CUDOS",
                        "exponent":  "18",
                        "coingecko_id":  "cudos",
-                       "logo":  "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png"
+                       "logo":  "/logos/cudos.png"
                    }
                ],
     "codebase":  {

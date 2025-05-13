@@ -1,10 +1,10 @@
 ﻿{
     "chain_name":  "yymm-testnet",
     "api":  [
-                "http://node.bitverse-dev.bitverse.zone:1317"
+                "https://node.bitverse-dev.bitverse.zone:1317"
             ],
     "rpc":  [
-                "http://node.bitverse-dev.bitverse.zone:26657"
+                "https://node.bitverse-dev.bitverse.zone:26657"
             ],
     "addr_prefix":  "yymm",
     "coin_type":  "60",

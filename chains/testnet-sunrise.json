@@ -1,0 +1,29 @@
+﻿{
+    "chain_name": "sunrise-Testnet",
+    "api": [
+        {
+            "address": "https://sunrise-testnet-api.polkachu.com/", 
+            "provider": "sunrise"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://sunrise-testnet-rpc.polkachu.com/", 
+            "provider": "sunrise"
+        }
+    ],
+    "sdk_version": "v0.47.4",
+    "coin_type": "60",
+    "min_tx_fee": "500",
+        "network_type":  "testnet",
+"assets": [{
+        "base": "urise",
+        "symbol": "RISE",
+        "exponent": "6",
+        "coingecko_id": "sunrise", 
+        "logo": "https://pbs.twimg.com/profile_images/1829726747958325249/KwdbXpxQ_400x400.jpg"
+    }],
+    "addr_prefix": "sunrise",
+    "theme_color": "#c91a1a",
+    "logo": "https://pbs.twimg.com/profile_images/1829726747958325249/KwdbXpxQ_400x400.jpg"
+}

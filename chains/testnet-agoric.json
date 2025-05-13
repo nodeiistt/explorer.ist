@@ -4,7 +4,7 @@
                 "https://devnet.api.agoric.net"
             ],
     "rpc":  [
-                "http://139.59.8.130:26657"
+                "https://devnet.rpc.agoric.net"
 
             ],
     "sdk_version":  "0.45.1",
@@ -17,14 +17,14 @@
                        "base":  "ubld",
                        "exponent":  6,
                        "coingecko_id":  "agoric",
-                       "logo":  "https://raw.githubusercontent.com/Agoric/agoric-sdk/master/packages/wallet/ui/public/tokens/BLD.svg"
+                       "logo":  "/logos/BLD.svg"
                    },
                    {
                        "symbol":  "IST",
                        "base":  "uist",
                        "exponent":  6,
                        "coingecko_id":  "agoric",
-                       "logo":  "https://raw.githubusercontent.com/Agoric/agoric-sdk/master/packages/wallet/ui/public/tokens/RUN.svg"
+                       "logo":  "/logos/RUN.svg"
                    }
                ],
     "codebase":  {

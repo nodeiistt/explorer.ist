@@ -1,0 +1,27 @@
+﻿{
+    "chain_name":  "union-testnet",
+    "api":  [
+                "https://api-t.union.nodestake.org", "https://union-testnet-api.polkachu.com"
+            ],
+    "rpc":  [
+                "https://api-t.union.nodestake.org", "https://union-testnet-rpc.polkachu.com"
+            ],
+    "addr_prefix":  "union",
+    "coin_type":  "60",
+    "min_tx_fee":  "5000000000000",
+    "assets":  [
+                   {
+                       "base":  "upoa",
+                       "symbol":  "poa",
+                       "exponent":  "6",
+                       "logo":  "/logos/union.jpg"
+                   }
+               ],
+    "logo":  "/logos/union.jpg",
+    "sdk_version":  "v0.50.4",
+    "codebase":  {
+                     "github_org":  "union-labs"
+                 },
+    "network_type":  "testnet",
+    "registry_name":  ""
+}

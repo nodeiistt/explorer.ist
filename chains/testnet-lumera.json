@@ -11,12 +11,20 @@
     {
       "address": "https://rpc.lumera.io",
       "provider": "Lumera Protocol"
+    },
+    {
+      "address": "https://rpc-1.testnet.lumera.nodes.guru",
+      "provider": "Nodes.Guru"
     }
   ],
   "api": [
     {
       "address": "https://lcd.lumera.io",
       "provider": "Lumera Protocol"
+    },
+    {
+      "address": "https://api-1.testnet.lumera.nodes.guru",
+      "provider": "Nodes.Guru"
     }
   ],
   "snapshot_provider": "",

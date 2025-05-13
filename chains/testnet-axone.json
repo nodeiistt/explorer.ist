@@ -1,0 +1,26 @@
+﻿{
+    "chain_name":  "axone-testnet",
+    "api": [
+        {"provider": "cosmos.directory", "address": "https://axone-testnet-api.polkachu.com"}
+    ],
+"rpc": [ {"provider": "cosmos.directory", "address": "https://axone-testnet-rpc.polkachu.com"} ],
+    "snapshot_provider":  "",
+    "sdk_version":  "0.46.2",
+    "coin_type":  "118",
+    "min_tx_fee":  "800",
+    "addr_prefix":  "axone",
+    "logo":  "/logos/axone.png",
+    "assets":  [
+                   {
+                       "base":  "uaxone",
+                       "symbol":  "axone",
+                       "exponent":  "6",
+                       "logo":  "/logos/axone.png"
+                   }
+               ],
+    "codebase":  {
+                     "github_org":  ""
+                 },
+    "network_type":  "testnet",
+    "registry_name":  ""
+}

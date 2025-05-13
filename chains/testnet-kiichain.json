@@ -1,0 +1,24 @@
+﻿{
+    "chain_name": "kiichain",
+    "chain_id": "kiichain3",
+    "validator_address": "",
+    "registry_name": "kiichain",
+    "network_type": "testnet",
+    "api": [
+        {"provider": "cosmos.directory", "address": "https://api-t.kiichain.nodestake.org"}
+    ],
+    "rpc": [ {"provider": "cosmos.directory", "address": "https://rpc-t.kiichain.nodestake.org"} ],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "theme_color": "#563a9d ",
+    "addr_prefix": "kii",
+    "logo": "/logos/kii.png",
+    "assets": [{
+        "base": "akii",
+        "symbol": "kii",
+        "exponent": "18",
+        "coingecko_id": "", 
+        "logo": "/logos/kii.png"
+    }]
+}

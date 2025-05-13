@@ -33,7 +33,7 @@
     "rpc": [
         {
             "provider": "VitWit",
-            "address": "http://public-rpc.regen.vitwit.com:26657"
+            "address": "https://public-rpc.regen.vitwit.com:26657"
         },
         {
             "provider": "StakeSystems",

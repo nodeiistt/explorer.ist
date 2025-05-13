@@ -23,7 +23,7 @@
         {"provider": "[NODERS]TEAM", "address": "https://band-api.noders.services"}
     ],
     "rpc": [
-        {"provider": "bandprotocol", "address": "http://rpc.laozi1.bandchain.org:80"},
+        {"provider": "bandprotocol", "address": "https://rpc.laozi1.bandchain.org:443"},
         {"provider": "Notional", "address": "https://rpc-bandchain-ia.cosmosia.notional.ventures/"},
         {"provider": "Inter Blockchain Services", "address": "https://band-rpc.ibs.team/"},
         {"provider": "AutoStake 🛡️ Slash Protected", "address": "https://bandchain-mainnet-rpc.autostake.com:443"},

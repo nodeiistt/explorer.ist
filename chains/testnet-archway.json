@@ -11,7 +11,7 @@
     "coin_type":  "118",
     "min_tx_fee":  "",
     "addr_prefix":  "archway",
-    "logo":  "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
+    "logo":  "/logos/archway.png",
     "assets":  [
         {
             "base": "aarch",
@@ -22,7 +22,7 @@
                        "base":  "aconst",
                        "symbol":  "CONST",
                        "exponent":  "18",
-                       "logo":  "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png"
+                       "logo":  "/logos/archway.png"
                    }
                ],
     "codebase":  {

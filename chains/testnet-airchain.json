@@ -1,0 +1,20 @@
+{
+    "chain_name": "airchains-testnet",
+    "coingecko": "",
+    "api": ["https://airchains-testnet-api.itrocket.net"],
+    "rpc": ["https://airchains-testnet-rpc.itrocket.net"],
+    "snapshot_provider": "",
+    "sdk_version": "v0.50.3",
+    "coin_type": "118",
+    "min_tx_fee": "1000",
+    "network_type":  "testnet",
+    "addr_prefix": "air",
+    "logo": "/logos/airchains.jpg",
+    "assets": [{
+        "base": "uamf",
+        "symbol": "AMF",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/airchains.jpg"
+    }]
+}

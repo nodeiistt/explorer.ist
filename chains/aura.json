@@ -27,7 +27,7 @@
     "rpc": [
         {"provider": "Aura Network Foundation", "address": "https://rpc.aura.network/"},
         {"provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀", "address": "https://m-aura.rpc.utsa.tech"},
-        {"provider": "🔥STAVR🔥", "address": "http://aura.rpc.m.stavr.tech:11047"},
+        {"provider": "🔥STAVR🔥", "address": "https://aura.rpc.m.stavr.tech:11047"},
         {"provider": "ramuchi.tech", "address": "https://aura-rpc.ramuchi.tech"},
         {"provider": "kjnodes", "address": "https://aura.rpc.kjnodes.com"},
         {"provider": "KonsorTech", "address": "https://mainnet-aura-rpc.konsortech.xyz"},

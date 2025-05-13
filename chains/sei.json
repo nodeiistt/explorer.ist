@@ -1,0 +1,30 @@
+{
+  "chain_name": "sei",
+  "chain_id": "pacific-1",
+  "validator_address": "",
+  "registry_name": "sei",
+  "network_type": "mainnet",
+  "codebase": {
+      "github_org": "sei-protocol"
+  },
+  "api": [
+    {"provider": "Chandra Station", "address": "https://sei.api.kjnodes.com"}
+  ],
+  "rpc": [
+    {"provider": "Chandra Station", "address": "https://sei.rpc.kjnodes.com"}
+  ],
+  "snapshot_provider": "https://www.polkachu.com/tendermint_snapshots/sei",
+  "sdk_version": "0.50.10",
+  "coin_type": "118",
+  "coingecko_id": "sei-network",
+  "min_tx_fee": "0",
+  "addr_prefix": "sei",
+  "logo": "/logos/sei.png",
+  "assets": [{
+    "base": "usei",
+    "symbol": "sei",
+    "coingecko_id": "sei-network",
+    "exponent": "18",
+    "logo": "/logos/sei.png"
+  }]
+}

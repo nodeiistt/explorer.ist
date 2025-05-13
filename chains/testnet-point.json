@@ -1,10 +1,10 @@
 ﻿{
     "chain_name":  "point-xnet-uranus-testnet",
     "api":  [
-                "http://xnet-uranus-1.point.space:1317"
+                "https://xnet-uranus-1.point.space:1317"
             ],
     "rpc":  [
-                "http://xnet-uranus-1.point.space:26657"
+                "https://xnet-uranus-1.point.space:26657"
             ],
     "sdk_version":  "0.45.7",
     "coin_type":  60,
